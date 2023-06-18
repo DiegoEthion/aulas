@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        <label for="">
+            Primeiro Nome: <br>
+            <input type="text" name="first name" required minlength="2">
+        </label><br>
+        <label for="">
+            Sobrenome: <br>
+            <input type="text" name="lastname" required>
+        </label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="">
+            Graduação: <br>
+            <input type="text" name="graduacao" required>
+        </label><br>
+        <label for="">
+            Numeral: <br>
+            <input type="number" name="numeral" required>
+        </label><br>
+    </fieldset>
+    <div>
+        <input id="botao" type="submit" value="Cadastrar">
+    </div>
+
+    </form>
+
+</body>
+</html>
