@@ -1,8 +1,8 @@
-let nome = "Diego Oliveira Gonçalves"
-let idade = 34
-let logado = true
+let nome = "Diego Oliveira Gonçalves" // string
+let idade = 34 // number
+let logado = true //boolean
 let lista = ["um","dois", "tres"] //array
-let nomeCompleto = {Nome:nome, Idade:idade}
+let nomeCompleto = {Nome:nome, Idade:idade} //object
 
 console.log(nome)
 console.log(idade + " Anos")
@@ -18,9 +18,5 @@ if (logado === true) {
 
 }   
 console.log("o tipo da variavel " + nome + " é " + typeof nome) 
-console.log(nomeCompleto)
+console.log(nomeCompleto) 
 
-// comentarios
-// de 
-// multiplas 
-// linhas
