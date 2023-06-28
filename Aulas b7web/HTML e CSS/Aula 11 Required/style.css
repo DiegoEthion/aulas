@@ -26,9 +26,8 @@ input[type=text] {
     padding: 5px;
    
 }
-    div{
-        margin-top: 19px;
-       
-        align-items: center;
-        text-align: center;
-    }
+#divbotao{
+    margin-top: 19px;
+    align-items: center;
+    text-align: center;
+}
