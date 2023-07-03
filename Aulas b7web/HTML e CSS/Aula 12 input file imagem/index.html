@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        <label for="">
+            Primeiro Nome: <br>
+            <input type="text" name="first name" required minlength="2">
+        </label><br>
+        <label for="">
+            Sobrenome: <br>
+            <input type="text" name="lastname" required>
+        </label><br>
+        <label for="">
+            Idade: <br>
+            <input type="number" name="age" required step="1" min="18" max="65" requided  >
+        </label><br>
+        <label for="">
+            Foto: <br>
+            <input type="file" name="foto" required accept="image/*"  >
+        </label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="">
+            Matricula:<br>
+            <input type="text" name="graduacao" required placeholder="somente numeros">
+        </label><br>
+        <label>
+            Graduação: <br>
+            <select name="Categoria">
+                <option value="0">Selecione</option
+                <option value="1">Soldado⟩</option>
+                <option value="2">Cabo ⟫</option>
+                <option value="3">3º Sargento ⟫⟩</option>
+                <option value="4">2º Sargento ⟫⟫</option>
+                <option value="5">1º Sargento ⟩⟫⟫</option>
+                <option value="6">Sub Tenente ⟁</option>
+                <option value="7">Aspirante ✦</option>
+                <option value="8">2º Tenente ✧ </option>
+                <option value="9">1º Tenente ✧✧ </option>
+                <option value="10">Captão ✧✧✧</option>
+                <option value="11">Major ✹✧✧</option>
+                <option value="12">Tenente Coronel ✹✹✧</option>
+                <option value="13">Coronel ✹✹✹</option>
+            </select>
+            
+        </label><br>
+        <label for="">
+            Numeral: <br>
+            <input type="number" name="numeral" required min="10000" max="40000">
+        </label><br>
+        <label for="">
+            Data de adminção: <br>
+            <input type="date" name="dataingresso" required min="1970-01-01"> <sub>*exatamente como na ID funcional</sub>
+        </label><br>
+    </fieldset>
+    <div id="divbotao">
+        <input id="botao" type="submit" value="Cadastrar">
+    </div>
+
+    </form>
+
+</body>
+</html>
